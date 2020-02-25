@@ -12,7 +12,6 @@
 /* foncé : 434750*/
 
 
-
 /*Titles style reset*/
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
@@ -59,7 +58,7 @@ a:hover {
     text-align: justify;
 }
 
-/*              HEADER STYLE                  */
+/********PAGE HEADER STYLE********/
 
 #photo {
     padding: 40px;
@@ -118,7 +117,7 @@ h2.job span::before {
 }
 
 
-/*               PERSONAL INFO STYLE                 */
+/********PERSONAL INFO STYLE*********/
 .my-info {
     display: flex;
 }
@@ -161,6 +160,14 @@ ul, .about-me {
     padding: 0 50px;
 }
 
+#about blockquote {
+    margin-top: 20px;
+    padding: 0 50px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 12px;
+}
+
 /*Hobbies section style*/
 .my-hobbies {
     display: flex;
@@ -184,8 +191,9 @@ ul, .about-me {
     text-align: center;
 }
 
-/*           PROFESSIONAL INFO STYLE                     */
+/*********PROFESSIONAL INFO STYLE*********/
 
+/*Common style*/
 #professional-information article {
     margin-top: 40px;
 }
@@ -219,6 +227,8 @@ ul, .about-me {
     margin-bottom: 60px;
 }
 
+
+/*References section style*/
 .reference {
     margin-bottom: 40px;
 }
